@@ -133,20 +133,6 @@ export default function Home() {
             </div>
           )}
         </div>
-
-
-        {connected && (
-        <div className="nftContainer">
-          <div className="nftHeading">
-            <p>My Gremlins</p>
-          </div>
-          <div className="nftDisplayWrapper">
-            {(nfts as any).map((nft: any, i: number) => {
-              return <AnNFT key={i} nft={nft} />;
-            })}
-          </div>
-        </div>
-        )}
       </div>
         
     </>
