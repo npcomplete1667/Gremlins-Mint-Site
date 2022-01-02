@@ -41,7 +41,7 @@ export default function Home() {
     const [mintCount, setMintCount] = useState(1);
 
     const myMin = 1
-    const myMax = 5
+    const myMax = 2
 
     return (
       <>
