@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Gremlins</title>
+        <title>Gremlins Mint</title>
         <meta
           name="description"
           content="Simplified NextJs with typescript example app integrated with Metaplex's Candy Machine"
@@ -84,7 +84,7 @@ export default function Home() {
         <Toaster />
         <div className="navBar">
           <div className="nftHeading tab mr-auto text-sm">
-            <p>Remaining {nftsData.itemsRemaining}</p>
+            <p>Remaining: {nftsData.itemsRemaining}</p>
           </div>
           {connected && (
             <div className="solBalance">
